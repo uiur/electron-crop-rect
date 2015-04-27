@@ -16,6 +16,15 @@ html, body, .window {
   background-size: 24px 24px;
 }
 
+.indicator {
+  position: absolute;
+  left: 18px;
+  top: 14px;
+  font-size: 10px;
+  line-height: 1;
+  color: #303030;
+}
+
 .rect {
   position: absolute;
   left: 0;
