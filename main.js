@@ -16,8 +16,8 @@ app.on('ready', function () {
   const size = Screen.getPrimaryDisplay().size
 
   mainWindow = new BrowserWindow({
-    left: 0,
-    top: 0,
+    x: 0,
+    y: 0,
     width: size.width,
     height: size.height,
     frame: false,
